@@ -51,21 +51,22 @@ function abrirModal(item) {
             <span class="data-badge">📅 Data: ${item.data}</span>
         </div>
         <div class="modal-body">
-            <section>
-                <h4><span class="icon">⏰</span> Cronograma Detalhado</h4>
-                <table style="width: 100%; border-collapse: collapse; background: white;">
-                    <thead>
-                        <tr style="background: #eee; text-align: left;">
-                            <th style="padding: 8px;">Horário</th>
-                            <th style="padding: 8px;">Atividade</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        ${linhasCronograma}
-                    </tbody>
-                </table>
-            </section>
-            <section>
+          <section>
+                        <h4><span class="icon">⏰</span> Cronograma Detalhado</h4>
+                        <div style="overflow-x: auto;"> <table style="width: 100%; border-collapse: collapse; min-width: 400px;">
+                                <thead>
+                                    <tr style="background: #eee; text-align: left;">
+                                        <th style="padding: 12px 8px;">Horário</th>
+                                        <th style="padding: 12px 8px;">Atividade</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    ${linhasCronograma}
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+                 <section>
                 <h4><span class="icon">💻</span> Atividades Práticas</h4>
                 <p>${item.pratica}</p>
             </section>
