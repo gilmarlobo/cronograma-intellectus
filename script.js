@@ -11,7 +11,7 @@ const planosDeAula = [
             { horario: "20:00 - 50:00", atividade: "Exercicios de digitação" },
             { horario: "50:00 - 55:00", atividade: "Pausa para intervalo" },
             { horario: "55:00 - 80:00", atividade: "Exercicios com o mouse no Paint" },
-            { horario: "80:00 - 90:00", atividade: "Dinâmica - quebra gelo" }
+            { horario: "80:00 - 90:00", atividade: "Dinâmica - quebra gelo!" }
         ],
         pratica: "Digitação na plataforma typeclub e desenho simples no Paint."
     }
