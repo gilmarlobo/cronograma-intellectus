@@ -14,7 +14,22 @@ const planosDeAula = [
             { horario: "80:00 - 90:00", atividade: "Dinâmica - quebra gelo!" }
         ],
         pratica: "Digitação na plataforma typeclub e desenho simples no Paint."
-    }
+    },
+            {
+            "aula": "02",
+            "data": "24/01/2026",
+            "tema": "Área de Trabalho e Manipulação de Arquivos no Windows",
+            "cronograma": [
+                { "horario": "00:00 - 15:00", "atividade": "Área de Trabalho, pastas e ícones" },
+                { "horario": "15:00 - 45:00", "atividade": "Aprendendo a utilizar a pontuação e acentuação com um ditado" },
+                { "horario": "45:00 - 50:00", "atividade": "Intervalo" },
+                { "horario": "50:00 - 65:00", "atividade": "Recortar, copiar, colar e renomear arquivos" },
+                { "horario": "65:00 - 85:00", "atividade": "Atividade" },
+                { "horario": "85:00 - 90:00", "atividade": "Considerações finais da aula" }
+            ],
+            "pratica": "Manipulação de arquivos e atividade prática relacionada ao conteúdo apresentado."
+        }
+
     // Adicione as outras linhas do seu Excel seguindo esse padrão
 ];
 
